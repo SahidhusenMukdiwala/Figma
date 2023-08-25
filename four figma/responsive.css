@@ -1,0 +1,514 @@
+@media screen and (max-width:1280px) {
+    .main,
+    #Intro {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .nav-logo {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #srch {
+        display: none;
+    }
+
+    #nav a {
+        padding: 8px 8px;
+    }
+
+    .help-part a {
+        padding-right: 10px;
+    }
+
+    .main-bg-with-txt {
+        background-size: cover;
+        height: auto;
+        background-position: center;
+    }
+
+    .main-txt {
+        padding-top: 15%;
+        padding-bottom: 21%;
+    }
+
+    .warrenty-img {
+        top: -510px;
+        left: 105px;
+    }
+
+    .delivary-img {
+        top: -440px;
+        left: 170px
+    }
+
+    .service-img {
+        top: -820px;
+        left: -25px;
+    }
+
+    .money-img {
+        top: -570px;
+        left: 150px;
+    }
+
+    .txt-bg-advantage {
+        height: 80vh;
+    }
+
+    .sym-txt {
+        top: 103px;
+        left: 1%;
+        padding-left: 3%;
+        padding-top: 3%;
+    }
+
+    .section-second-bg {
+        background: url(images/Advantage/Group\ 9451.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 55vh;
+    }
+
+    .txt-bg-advantage {
+        height: 61vh;
+        top: -45px;
+    }
+
+    .sym-txt h1 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .sym-txt p {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 940px) {
+
+    .main,
+    #Intro {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    #nav {
+        display: none;
+        position: absolute;
+        top: 118px;
+        left: 40%;
+        width: 300px;
+        min-height: 30px;
+        text-align: center;
+    }
+
+    #nav a:hover {
+        width: 100%;
+        display: block;
+    }
+
+    #menu-toggle:checked+#nav {
+        display: block;
+    }
+
+    label {
+        display: block;
+    }
+
+    label i {
+        position: relative;
+        font-size: 1.3rem;
+    }
+
+    .nav-logo {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-bg-with-txt {
+        background-size: cover;
+        height: auto;
+        background-position: center;
+    }
+
+    .main-txt {
+        padding-top: 15%;
+        padding-bottom: 14%;
+    }
+
+    .back-img {
+        background-image: url(images/popular/Rectangle\ 114.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+
+    .center-ad-image img {
+        left: 23%;
+    }
+
+    .warrenty-img {
+        top: -510px;
+        left: 105px;
+    }
+
+    .delivary-img {
+        top: -440px;
+        left: 30px
+    }
+
+    .service-img {
+        top: -820px;
+        left: 11px;
+    }
+
+    .money-img {
+        top: -570px;
+        left: 210px;
+    }
+
+    .txt-bg-advantage {
+        height: 50vh;
+        left: 52%;
+        top: -15px;
+    }
+
+    .sym-txt {
+        position: relative;
+        top: 103px;
+        left: 1%;
+        padding-left: 2%;
+        padding-top: 1%;
+        color: white;
+    }
+
+    .section-second-bg {
+        background: url(images/Advantage/Group\ 9451.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 43vh;
+    }
+
+    .sym-txt h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .sym-txt p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:780px) {
+
+    .main,
+    #Intro {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .second-part {
+        display: flex;
+    }
+
+    .help-part {
+        margin-top: 10px;
+    }
+
+    #nav {
+        display: none;
+        overflow: hidden;
+        position: absolute;
+        top: 139px;
+        left: 39%;
+        width: 200px;
+        min-height: 30px;
+        text-align: center;
+    }
+
+    label i {
+        position: relative;
+        font-size: 1.3rem;
+        left: 130px;
+    }
+
+    .search-icon {
+        position: static;
+    }
+
+    .lock-icon {
+        margin-right: 0px;
+    }
+
+    .center-ad-image img {
+        left: 8%;
+    }
+
+    .warrenty-img {
+        top: -510px;
+        left: -9px;
+    }
+
+    .delivary-img {
+        top: -440px;
+        left: 30px
+    }
+
+    .service-img {
+        top: -820px;
+        left: 11px;
+    }
+
+    .money-img {
+        top: -570px;
+        left: 210px;
+    }
+
+    .sym-txt {
+        position: relative;
+        top: 88px;
+        left: 1%;
+        padding-left: 2%;
+        padding-top: 1%;
+        color: white;
+    }
+
+    .txt-bg-advantage {
+        height: 44vh;
+        left: 54%;
+        top: -24px;
+    }
+
+    .section-second-bg {
+        background: url(images/Advantage/Group\ 9451.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 37vh;
+    }
+
+    .sym-txt h1 {
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+
+    .sym-txt p {
+        font-size: 15px;
+    }
+
+    #btn1 {
+        padding: 5px 15px;
+        margin-left: 5%;
+    }
+
+}
+
+@media screen and (max-width:540px) {
+
+    .main,
+    #Intro {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    label i {
+        left: 50px;
+    }
+
+    .search-icon {
+        position: static;
+    }
+
+    .lock-icon {
+        margin-right: 0px;
+    }
+
+    .second-part {
+        display: block;
+    }
+
+    .main-txt {
+        padding-top: 15%;
+        padding-bottom: 14%;
+    }
+
+    .main-bg-with-txt {
+        background-size: cover;
+        height: auto;
+        background-position: center;
+    }
+
+    .main-bg-with-txt h1 {
+        font-size: 15px;
+    }
+
+    .main-bg-with-txt p {
+        font-size: 10px;
+    }
+
+    #btn1 {
+        padding: 5px 10px;
+    }
+
+    .like {
+        position: relative;
+        left: 253px;
+        top: -300px;
+    }
+
+    .new-price {
+        margin-left: 30px;
+    }
+
+    .first-pop-cart {
+        margin-bottom: 10%;
+    }
+
+    .pop-cart {
+        margin: 16px;
+    }
+
+    .center-ad-image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .service-img img,
+    .delivary-img img,
+    .warrenty-img img {
+        width: 126px;
+        height: 126px;
+    }
+    .money-img {
+        top: -640px;
+        left: 257px;
+    }
+    .warrenty-img {
+        top: -430px;
+        left: 20px;
+    }
+
+    .delivary-img img,
+    .warrenty-img img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .money-img img,
+    .service-img img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .delivary-img span,
+    .warrenty-img span,
+    .money-img span,
+    .service-img span {
+        font-size: 15px;
+        padding-left: 0px;
+    }
+
+    .sym-txt {
+        position: relative;
+        top: 65px;
+        left: 1%;
+        padding-left: 2%;
+        padding-top: 1%;
+        color: white;
+    }
+
+    .txt-bg-advantage {
+        height: 33vh;
+        left: 50%;
+        top: -24px;
+    }
+
+    .section-second-bg {
+        background: url(images/Advantage/Group\ 9451.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 28vh;
+    }
+
+    .sym-txt h1 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .sym-txt p {
+        font-size: 11px;
+    }
+
+    #btn1 {
+        padding: 5px 10px;
+        margin-left: 5%;
+
+    }
+    .social-icons{
+        margin: auto;
+        padding-top: 10px;
+    }
+    .footer{
+        display: block;
+        text-align: center;
+    }
+    .first-ul ul{
+        display: block;
+    }
+    .main-txt{
+    padding-right: 134px;
+}
+}
+
+@media screen and (max-width:360px) {
+
+    .delivary-img,
+    .warrenty-img,
+    .service-img,
+    .money-img {
+        width: 102px;
+        height: 122px;
+    }
+    .delivary-img {
+        top: -291px;
+        left: 26px;
+    }
+    .warrenty-img {
+        top: -355px;
+        left: 20px;
+    }
+    .money-img {
+        top: -359px;
+        left: 103px;
+    }
+    .center-ad-image img {
+        left: -4%;
+    }
+    .service-img {
+        top: -529px;
+        left: -11px;
+    }
+    .txt-bg-advantage {
+        height: 27vh;
+        left: 50%;
+        top: -30px;
+    }
+    .sym-txt h1 {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .sym-txt p {
+        font-size: 9px;
+    }
+    .section-second-bg {
+        height: 19vh;
+        margin-top: -229px;
+    }
+    #btn1 {
+        padding: 3px 2px;
+        margin-left: 8%;
+    }
+
+}
