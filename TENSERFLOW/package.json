@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "aos": "^2.3.4",
+    "sweetalert": "^2.1.2"
+  }
+}

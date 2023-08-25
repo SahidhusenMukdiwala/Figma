@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="aos.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="details">
+            <div class="e-mail">
+                <label for>Mail :- </label>
+                <input type="email" name="mail" id="e-mail" placeholder="Enter Your Mail">
+            </div>
+            <div class="psw">
+                <label>Password :- </label>
+                <input type="password" name="psw1" id="psw1" placeholder="Enter Your Password">
+            </div>
+            <div class="psw1">
+                <label>Re-Password :-</label>
+                <input type="password" name="psw2" id="psw2" placeholder="Re-enter your password">
+            </div>
+            <input type="submit" value="Submit" id="Btn1" onclick="savedata()">
+        </div>
+    </div>
+    
+    
+    <script src="https://code.jquery.com/jquery-3.7.0.slim.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="script.js"></script>
+    <script src="aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>

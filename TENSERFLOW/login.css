@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-image: url(background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 100vh;
+    padding-top: 14%;
+}
+
+.login {
+    width: 350px;
+    height: 370px;
+    margin: auto;
+    border: 2px solid white;
+    text-align: center;
+}
+
+#mail {
+    margin-top: 20%;
+}
+
+#mail,
+#psw {
+    height: 30px;
+    width: 70%;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10%;
+    outline: none;
+}
+
+#psw {
+    margin-top: 10%;
+}
+
+#lock,
+#eye {
+    position: relative;
+    right: -30px;
+    color: black;
+    font-size: 1.1rem;
+}
+
+.forget-pass {
+    margin-top: 10px;
+}
+
+.forget-pass a {
+    color: white;
+}
+
+/*---------------------------- forget psw section ----------------------------------- */
+
+.container {
+    padding-top: 14%;
+    background: url(background.png);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#e-mail {
+    margin-top: 27%;
+    height: 30px;
+    width: 73%;
+    outline: none;
+    border: none;
+    margin-left: 30px;
+    font-size: 13px;
+}
+
+
+#psw1{
+    margin-top: 15px;
+    height: 30px;
+    width: 72%;
+    outline: none;
+    font-size: 13px;
+    padding-left: 10px;
+    border: none;
+}
+#psw2 {
+    margin-top: 15px;
+    height: 30px;
+    width: 65%;
+    outline: none;
+    font-size: 13px;
+    padding-left: 10px;
+    border: none;  
+}
+
+.details {
+    width: 350px;
+    height: 350px;
+    border: 1px solid white;
+    color: white;
+    padding-left: 10px;
+    margin: auto;
+}
+
+#Btn1 {
+    padding: 8px 20px;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    margin-top: 50px;
+    margin-left: 30%;
+    transition: all 1s ease-out;
+}
+#Btn2 {
+    padding: 8px 20px;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    margin-top: 50px;
+    transition: all 1s ease-out;
+}
+
+#Btn1:hover{
+    transform: scale(1.2);
+    transition: all 1s ease-in-out;
+    background-color: aqua;
+}
+#Btn2:hover{
+    transform: scale(1.2);
+    transition: all 1s ease-in-out;
+    background-color: aqua;
+}

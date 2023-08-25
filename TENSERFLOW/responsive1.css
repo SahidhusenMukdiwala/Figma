@@ -1,0 +1,360 @@
+@media screen and (max-width:1160px) {
+    .container {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    .header {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .logo {
+        width: 24%;
+        overflow: hidden;
+    }
+
+    .loc_phone {
+        width: 80%;
+        overflow: hidden;
+    }
+
+    .phone,
+    .mail,
+    .location {
+        padding: 0px;
+    }
+
+    .phone i,
+    .mail i,
+    .location i {
+        padding: 10px 10px;
+    }
+
+    .nav_icon {
+        width: 100%;
+    }
+
+    .about-bg_image{
+        height: 55vh;
+    }
+    .project-bg_image {
+        background-image: url(project/bg.png);
+        height: 50vh;
+    }
+
+    .contect-bg_image {
+        /* background-image: url(contect/Photo.png); */
+        height: 45vh;
+    }    
+}
+
+
+@media screen and (max-width: 980px) {
+    .container {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .text {
+        margin-left: 6%;
+        margin-top: 3%;
+        width: 36%;
+        color: white;
+    }
+
+    .text h1 {
+        font-size: 23px;
+        padding: 10px;
+    }
+
+    .ser-bg_image {
+        height: 45vh;
+    }
+    .about-bg_image{
+        height: 45vh;
+    }
+    .details-data {
+        justify-content: center;
+    }
+    .project-bg_image {
+        background-image: url(project/bg.png);
+        height: 39vh;
+    }
+    .contect-bg_image {
+        background-image: url(contect/Photo.png);
+        height: 37vh;
+    }
+    
+}
+
+@media screen and (max-width:780px) {
+    .container {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .text {
+        margin-left: 6%;
+        margin-top: 3%;
+        width: 36%;
+        color: white;
+    }
+
+    .navbar ul li a {
+        padding: 8px 5px;
+        text-decoration: none;
+        color: white;
+        border-radius: 6px;
+        font-size: 13px;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .social_icons i {
+        padding: 5px;
+        color: white;
+    }
+
+    .header {
+        display: block;
+    }
+
+    .loc_phone {
+        display: block;
+    }
+
+    .location,
+    .mail,
+    .phone {
+        justify-content: left;
+    }
+
+    .text h1 {
+        font-size: 19px;
+        padding: 10px;
+    }
+
+    .ser-bg_image {
+        height: 35vh;
+    }
+
+    .overview-img {
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+
+    .overview-img {
+        margin: auto;
+    }
+
+    .overview-img img {
+        width: 200px;
+        height: 200px;
+        border: 5px solid white;
+    }
+
+    .F_image {
+        margin: auto;
+    }
+
+    .four_portion {
+        display: block;
+    }
+
+    .f_logo {
+        width: 100%;
+    }
+
+    .f_Subscribe {
+        width: 100%;
+    }
+
+    .f_pages,
+    .f_Unity {
+        width: 100%;
+    }
+
+    .F_MAIL,
+    .F_PHONE {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .f_logo {
+        text-align: center;
+    }
+
+    .heading {
+        margin-top: 20px;
+    }
+
+    #a {
+        margin-top: 0px;
+    }
+
+    .f_Unity h2 {
+        margin-top: 20px;
+        color: #FFB629;
+    }
+
+    .about-bg_image {
+        background-image: url(service-image/about-bg.png);
+        height: 32vh;
+    }
+    .details-data {
+        justify-content: center;
+    }
+    .project-bg_image {
+        background-image: url(project/bg.png);
+        height: 33vh;
+    }
+    .contect-bg_image {
+        background-image: url(contect/Photo.png);
+        height: 30vh;
+    }    
+}
+
+@media screen and (max-width: 540px) {
+    .container {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .text h3 {
+        width: 100%;
+        padding: 10px 0;
+        padding-bottom: 10px;
+        background: none;
+        color: black;
+        font-size: 11px;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    .text h1 {
+        font-size: 12px;
+        padding: 0px;
+    }
+
+    .nav_btn {
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    .social_icons {
+        font-size: 12px;
+    }
+
+    .social_icons i {
+        padding: 0px
+    }
+
+    .ser-bg_image {
+        height: 24vh;
+    }
+    .about-bg_image {
+        background-image: url(service-image/about-bg.png);
+        height: 27vh;
+    }
+
+    .r_cart_1 img,
+    .r_cart_2 img,
+    .r_cart_3 img,
+    .r_cart_4 img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .r_cart_1 h1,
+    .r_cart_2 h1,
+    .r_cart_3 h1,
+    .r_cart_4 h1{
+        margin-top: 3%;
+        font-size: 21px;
+        text-align: inherit !important;
+    }
+
+    .ser-overview-img {
+        width: 556px;
+        height: 344px;
+    }
+    .details-data {
+        justify-content: center;
+    }
+    .project-bg_image {
+        background-image: url(project/bg.png);
+        height: 23vh;
+    }
+    .contect-bg_image {
+        background-image: url(contect/Photo.png);
+        height: 22vh;
+    }
+    
+}
+
+@media screen and (max-width:350px) {
+    .nav_btn {
+        padding: 3px;
+        font-size: 8px;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .navbar ul li a {
+        padding: 0px;
+    }
+
+    .ser-bg_image {
+        height: 18vh;
+    }
+    
+    .r_cart_1 img,
+    .r_cart_2 img,
+    .r_cart_3 img,
+    .r_cart_4 img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .r_cart_1 h1,
+    .r_cart_2 h1,
+    .r_cart_3 h1,
+    .r_cart_4 h1{
+        margin-top: 3%;
+        font-size: 21px;
+        text-align: inherit !important;
+    }
+    .overview-txt {
+        padding-top: 10%;
+    }
+    .ser-overview-img {
+        height: 229px;
+    }
+    .details-data {
+        justify-content: center;
+    }
+    .project-bg_image {
+        background-image: url(project/bg.png);
+        height: 17vh;
+    }
+    .contect-bg_image {
+        background-image: url(contect/Photo.png);
+        height: 14vh;
+    }
+}

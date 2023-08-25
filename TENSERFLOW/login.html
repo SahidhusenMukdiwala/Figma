@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.slim.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+    
+    <div class="main">
+        <div class="login">
+            <h1 style="text-align: center;">Welcome To TenserFlow</h1>
+            <div class="email">
+                <label id="lbl1">
+                    Mail <span><i id="lock" class="fa fa-lock"></i></span>
+                </label>
+                <input type="email" name="mail" id="mail" required placeholder="Enter Your mail"> <br>
+            </div>
+            <div class="password">
+                <label id="lbl2">
+                    Password <span><i id="eye" class="fa fa-eye"></i></span>
+                </label>
+                <input type="password" name="psw" id="psw" required placeholder="Enter Your password"> <br>
+            </div>
+            <input type="submit" value="Submit" id="Btn2" onclick="Check_info()">
+            
+            <div class="forget-pass">
+                <span>Click here for :- </span>
+                <a href="#">Forget Your Password ?</a>
+            </div>
+            <br>
+            <span style="color: white;">You Don't have Account? <a href="newuser.html" style="color: white;">Sing Up</a> </span>
+        </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+    <script src="aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
